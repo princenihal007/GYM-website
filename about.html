@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us - Tigor Gym</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Navbar */
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff9900;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('gym-interior.jpg') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+        }
+
+        /* About Us Section */
+        .about {
+            padding: 50px 20px;
+            background: white;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        /* Trainer Section */
+        .trainers {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+
+        .trainer-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+        }
+
+        .trainer-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background: #ff9900;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .testimonial {
+            max-width: 600px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        /* Social Links */
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Tigor Gym</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>About Tigor Gym</h2>
+        <p>Where Strength Meets Passion</p>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <p>Tigor Gym is committed to helping individuals achieve their fitness goals with state-of-the-art equipment, expert trainers, and a motivating environment.</p>
+
+            <h3>Our Mission</h3>
+            <p>We strive to create a space where fitness is fun, accessible, and transformative for everyone.</p>
+
+            <h3>Our Vision</h3>
+            <p>To be the leading fitness community that inspires people to lead healthier lives.</p>
+        </div>
+    </section>
+
+    <section class="trainers">
+        <h2>Meet Our Trainers</h2>
+        <div class="trainer-card">
+            <h3>John Doe</h3>
+            <p>Expert in weightlifting & muscle building.</p>
+        </div>
+
+        <div class="trainer-card">
+            <h3>Jane Smith</h3>
+            <p>Certified yoga & zumba instructor.</p>
+        </div>
+
+        <div class="trainer-card">
+            <h3>Mike Johnson</h3>
+            <p>Cardio & endurance specialist.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <p class="testimonial">"Tigor Gym has transformed my life! The trainers are amazing, and the environment is super motivating." - Rahul</p>
+        <p class="testimonial">"The best gym in town! Top-notch equipment and great energy." - Priya</p>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:simham@tigorgym.com">simham@tigorgym.com</a></p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Location: Hyderabad, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tigor Gym. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank">🔵 Facebook</a>
+                <a href="#" target="_blank">📷 Instagram</a>
+                <a href="#" target="_blank">🐦 Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
